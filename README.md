@@ -6,8 +6,12 @@ CLI — a desktop-friendly replacement for the original Google Colab workflow.
 
 ## Features
 
-- Select one or more PDFs through the browser UI
+- Select one or more PDFs through the browser UI, or drag & drop them
+  onto the upload area
 - Batch conversion with a progress bar and per-file success/failure status
+- Markdown preview pane for inspecting converted files in the browser
+- LiteParse options: OCR on/off, OCR language, max pages, target pages
+  (e.g. `1-5,8`), DPI, preserve small text, and PDF password
 - Markdown files are written directly to a local folder of your choice
   (defaults to `~/markdown_output`)
 - Optionally download all converted files as a single ZIP
